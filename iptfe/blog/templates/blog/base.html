@@ -1,0 +1,45 @@
+{% load static %}
+
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="{% static "base.css" %}">
+
+</head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <h1><a href="/">I <b>&#10084;</b> the front end</a></h1>
+                <nav>
+                    <a href="/archive/">Archive</a>
+                </nav>
+            </div>
+
+            {% block title %}
+
+            {% endblock %}
+
+            <hr/>
+
+            {% block content %}
+
+            {% endblock %}
+        </div>
+        {% if page != 'archive' %}
+        <div class="comments">
+            <h2>Comments</h2>
+            <hr/>
+            {% block comments %}
+
+            {% endblock %}
+        </div>
+        {% endif %}
+    </body>
+</html>
+
