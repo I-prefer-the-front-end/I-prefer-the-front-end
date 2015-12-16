@@ -1,0 +1,32 @@
+{
+  "name": "i-prefer-the-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I-prefer-the-front-end/I-prefer-the-front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/I-prefer-the-front-end/I-prefer-the-front-end/issues"
+  },
+  "homepage": "https://github.com/I-prefer-the-front-end/I-prefer-the-front-end#readme",
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "bourbon": "^4.2.6",
+    "gulp": "^3.9.0",
+    "modularscale-sass": "^2.1.1",
+    "sassy-maps": "git+https://github.com/at-import/sassy-maps.git",
+    "sizzle": "^2.2.1",
+    "susy": "^2.2.9",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}

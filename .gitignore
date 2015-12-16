@@ -2,3 +2,6 @@
 ve/
 iptfe/project/local_settings.py
 iptfe/porject/local_settings.pyc
+node_modules
+sass_cache
+bower_components
