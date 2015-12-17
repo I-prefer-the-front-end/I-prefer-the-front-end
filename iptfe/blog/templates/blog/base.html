@@ -1,4 +1,5 @@
 {% load static %}
+{% load render_bundle from webpack_loader %}
 
 <!doctype html>
 <html class="no-js" lang="">
@@ -40,6 +41,7 @@
             {% endblock %}
         </div>
         {% endif %}
+
+        {% render_bundle 'main' %}
     </body>
 </html>
-
