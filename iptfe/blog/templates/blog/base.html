@@ -16,20 +16,22 @@
         <div class="main">
             <div class="header">
                 <h1><a href="/">I <b>&#10084;</b> the front end</a></h1>
-                <nav>
-                    <a href="/archive/">Archive</a>
-                </nav>
+                
             </div>
 
-            {% block title %}
+            <div class="article">
 
-            {% endblock %}
+                {% block title %}
 
-            <hr/>
+                {% endblock %}
 
-            {% block content %}
+                <hr/>
 
-            {% endblock %}
+                {% block content %}
+
+                {% endblock %}
+
+            </div>
         </div>
         {% if page != 'archive' %}
         <div class="comments">
