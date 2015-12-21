@@ -17,16 +17,32 @@
   },
   "homepage": "https://github.com/I-prefer-the-front-end/I-prefer-the-front-end#readme",
   "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
     "babel": "^6.3.13",
     "babel-core": "^6.3.17",
     "babel-loader": "^6.2.0",
-    "bourbon": "^4.2.6",
+    "bless-webpack-plugin": "^1.0.0",
+    "clean-webpack-plugin": "^0.1.5",
+    "css-loader": "^0.23.0",
     "gulp": "^3.9.0",
+    "path": "^0.12.7",
+    "ruby-sass-loader": "^0.2.0",
+    "style-loader": "^0.13.0",
+    "uglify-loader": "^1.3.0",
+    "webpack": "^1.12.9",
+    "webpack-bundle-tracker": "0.0.8",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-notifier": "^1.2.1"
+  },
+  "dependencies": {
+    "ampersand": "^3.0.6",
+    "bourbon": "^4.2.6",
+    "lazysizes": "^1.3.2",
+    "lodash": "^3.10.1",
     "modularscale-sass": "^2.1.1",
+    "picturefill": "^3.0.1",
     "sassy-maps": "git+https://github.com/at-import/sassy-maps.git",
     "sizzle": "^2.2.1",
-    "susy": "^2.2.9",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "susy": "^2.2.9"
   }
 }
